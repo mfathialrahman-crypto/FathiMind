@@ -1,4 +1,6 @@
 > **PROPRIETARY — ALL RIGHTS RESERVED.** © 2026 Mohamed Fathi Alrahman. Not open source. Not MIT. The engines are private. Viewing is not a license.
+>
+> Press & trade: [PRESS.md](./PRESS.md)
 
 # FathiMind
 
