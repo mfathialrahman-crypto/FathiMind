@@ -15,7 +15,7 @@ Cycle source: SovereignEvolution v1.1. test-foundation shipped 2026-09-23.
 | KR | Measure | Status |
 | --- | --- | --- |
 | AetherMind optionally reads Helix + MFR outputs | documented flag, no crash if files absent | not started |
-| Evolution measures execution | analyzer drops a gap only after the code is on main | started — test-foundation removed from the open list |
+| Evolution measures execution | report gap list edited by hand; the engine does not clone the other repos | corrected — not an automatic scanner |
 
 ## O3 — GitHub at operating-system grade
 

@@ -58,7 +58,7 @@ FathiMind is the public spine of four repositories owned by [mfathialrahman-cryp
 | [AetherMind](https://github.com/mfathialrahman-crypto/AetherMind) | Intelligence / reasoning | v1.1 | every 2 hours |
 | [SovereignEvolution](https://github.com/mfathialrahman-crypto/SovereignEvolution) | Permanent evolution engine | v1.1 | daily 03:00 UTC |
 
-Last recorded runtime cycle (2026-09-22): Helix health **94/100** (disk component 14), MFR **STABLE / 0.85** generation 263, Aether `continue_normal_operations / 0.80` generation 54. **test-foundation landed 2026-09-23** — pytest is on main in the three runtimes and gates every cycle.
+Last traces on main (2026-09-23): Helix generation **59** at 03:11 UTC, health **94/100** (disk 81.3, component 14); MFR generation **267** at 02:18 UTC, **STABLE / 0.85**; Aether generation **58** at 03:23 UTC, `continue_normal_operations / 0.80`. test-foundation is on main as of 08:15 UTC. The pytest step is in each cycle workflow. Those three schedules have not run again since the step was added. SovereignEvolution's extra cycle at 08:16 UTC did run the gate, and it passed.
 
 ---
 
@@ -155,7 +155,7 @@ Shipped:
 
 - Unit tests on HelixMind, MFR-Cognition, and AetherMind. A red suite blocks the 2-hour cycle.
 
-Still open (SovereignEvolution, after the 2026-09-23 landing):
+Still open. The evolution report's gap list is a handwritten function in `analyze_ecosystem()`. It does not clone the other repositories:
 
 - No shared event/schema contracts (RFC-0001, still draft)
 - No cross-project data flow yet (RFC-0002, blocked on the schemas)
