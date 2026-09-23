@@ -58,7 +58,7 @@ FathiMind is the public spine of four repositories owned by [mfathialrahman-cryp
 | [AetherMind](https://github.com/mfathialrahman-crypto/AetherMind) | Intelligence / reasoning | v1.1 | every 2 hours |
 | [SovereignEvolution](https://github.com/mfathialrahman-crypto/SovereignEvolution) | Permanent evolution engine | v1.1 | daily 03:00 UTC |
 
-Last recorded cycle (2026-09-18): Helix health **100**, MFR **STABLE / 0.85**, Aether `continue_normal_operations / 0.80`, cognition generation **238**.
+Last recorded runtime cycle (2026-09-22): Helix health **94/100** (disk component 14), MFR **STABLE / 0.85** generation 263, Aether `continue_normal_operations / 0.80` generation 54. **test-foundation landed 2026-09-23** — pytest is on main in the three runtimes and gates every cycle.
 
 ---
 
@@ -151,11 +151,14 @@ Quality is not a slogan. It is HelixMind's health model plus the evolution rule:
 
 > Only real, high-value, safe changes are executed. Artificial changes are forbidden.
 
-Current honest gaps (from SovereignEvolution memory):
+Shipped:
 
-- No unit tests in any runtime repository
-- No shared event/schema contracts
-- No cross-project data flow yet
+- Unit tests on HelixMind, MFR-Cognition, and AetherMind. A red suite blocks the 2-hour cycle.
+
+Still open (SovereignEvolution, after the 2026-09-23 landing):
+
+- No shared event/schema contracts (RFC-0001, still draft)
+- No cross-project data flow yet (RFC-0002, blocked on the schemas)
 - No long-term baseline learning
 - Project Factory discovered, not operational
 
@@ -167,7 +170,7 @@ Those gaps are the roadmap. They are not hidden.
 
 ### O1 — Make the ecosystem verifiable
 
-- KR: pytest on the three critical pipelines
+- KR: pytest on the three critical pipelines — **done 2026-09-23**
 - KR: one JSON contract for events and decisions
 - KR: zero decisions without an evidence trace
 
@@ -191,12 +194,12 @@ SovereignEvolution scores candidates. The current board:
 
 | ID | Title | Score | State |
 | --- | --- | --- | --- |
-| `test-foundation` | Real unit tests across Helix, MFR, Aether | 6480 | queued |
-| `shared-contracts` | Shared event and decision schemas | 5040 | queued |
-| `cross-project-flow` | Helix → MFR → Aether | 3888 | queued |
-| `baseline-learning` | Long-term baseline in HelixMind | 2744 | **next** |
+| `test-foundation` | Real unit tests across Helix, MFR, Aether | 6480 | **done 2026-09-23** |
+| `shared-contracts` | Shared event and decision schemas | 5040 | **next** (RFC-0001 still draft — not started) |
+| `cross-project-flow` | Helix → MFR → Aether | 3888 | queued, blocked on the schemas |
+| `baseline-learning` | Long-term baseline in HelixMind | 2744 | queued |
 
-The engine rotated the "next" pointer across these four. None have been executed as code yet. That is recorded here without theatre.
+test-foundation is the first target executed as code. The other three have not been. shared-contracts is next and stays unstarted until RFC-0001 is accepted.
 
 ---
 
@@ -263,7 +266,12 @@ Direction:
 
 ## Roadmap
 
-See [Prioritization](#prioritization). Issues will track the four targets in this repository.
+See [Prioritization](#prioritization). Issue 1 (`test-foundation`) is done. Issues 2–4 stay open.
+
+## Serve gate
+
+Private skill [`auto-serve`](https://github.com/mfathialrahman-crypto/auto-serve). A result is served only when evidence is present, fresh, and confidence clears the floor AetherMind already enforces (0.45). A calm serve needs 0.70. The skill never mutates an engine and never writes a schema. Helix health is not a confidence.
+
 
 ---
 
