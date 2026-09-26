@@ -58,7 +58,7 @@ FathiMind is the public spine of four repositories owned by [mfathialrahman-cryp
 | [AetherMind](https://github.com/mfathialrahman-crypto/AetherMind) | Intelligence / reasoning | v1.1 | every 2 hours |
 | [SovereignEvolution](https://github.com/mfathialrahman-crypto/SovereignEvolution) | Permanent evolution engine | v1.1 | daily 03:00 UTC |
 
-Last traces on main (2026-09-23): Helix generation **59** at 03:11 UTC, health **94/100** (disk 81.3, component 14); MFR generation **267** at 02:18 UTC, **STABLE / 0.85**; Aether generation **58** at 03:23 UTC, `continue_normal_operations / 0.80`. test-foundation is on main as of 08:15 UTC. Shared schemas (RFC-0001) created 2026-09-26.
+Last traces on main (2026-09-26): Helix generation **76** at 13:59 UTC, health **94/100**; MFR **STABLE / 0.85**; Aether `continue_normal_operations / 0.80`. RFC-0002 (cross-project-flow) implemented 2026-09-26.
 
 ---
 
@@ -86,7 +86,7 @@ Layers are separated on purpose.
 
 1. **Measure** — HelixMind collects CPU, memory, disk, load, processes, network, uptime. Three detection layers: absolute, statistical, short predictive. Correlated multi-signal events. Explainable health score.
 2. **Verify** — MFR-Cognition turns a metrics snapshot into a decision object: input, evidence, anomalies, confidence, status.
-3. **Reason** — AetherMind forms hypotheses and emits a recommendation only as strong as the confidence.
+3. **Reason** — AetherMind forms hypotheses and emits a recommendation only as strong as the confidence. It may optionally consume Helix insights and MFR decisions (RFC-0002).
 4. **Evolve** — SovereignEvolution scans the ecosystem, records gaps, and selects the next development target. It does not invent fake diffs.
 
 Shared rule: **no tight coupling**. Cross-layer flow is a contract, not a merge.
@@ -117,6 +117,8 @@ Pipeline: evidence → hypotheses → confidence → recommendation.
 
 Rule: **no strong recommendation when confidence is low.**
 
+Optional ingest: `HELIX_INSIGHTS_PATH`, `MFR_DECISIONS_PATH`. Stale (> 4h) files are ignored. Agreement raises confidence; it does not change the action.
+
 Outputs: `aether_state.json`, `aether_recommendations.json`, `aether_report.txt`.
 
 ### SovereignEvolution — evolve
@@ -143,7 +145,7 @@ Minimum fields:
 - status: `stable` | `warning` | `critical`
 - signature (truncated SHA-256)
 
-Owner: MFR-Cognition. Consumers: AetherMind (planned), humans, this handbook.
+Owner: MFR-Cognition. Consumers: AetherMind (RFC-0002), humans, this handbook.
 
 ---
 
@@ -157,11 +159,11 @@ Shipped:
 
 - Unit tests on HelixMind, MFR-Cognition, and AetherMind. A red suite blocks the 2-hour cycle.
 - Shared JSON schemas (RFC-0001 accepted 2026-09-26).
+- Cross-project data flow (RFC-0002 implemented 2026-09-26).
 
 Still open:
 
 - Runtime validation of schemas (optional, non-blocking)
-- Cross-project data flow (RFC-0002)
 - Long-term baseline learning
 - Project Factory operationalization
 
@@ -179,7 +181,7 @@ Those gaps are the roadmap. They are not hidden.
 
 ### O2 — Connect layers without merging repositories
 
-- KR: AetherMind optionally reads `helix_insights.json` and `decisions.json`
+- KR: AetherMind optionally reads `helix_insights.json` and `decisions.json` — **done 2026-09-26**
 - KR: SovereignEvolution measures execution, not only discovery
 
 ### O3 — Keep GitHub at operating-system grade
@@ -199,8 +201,8 @@ SovereignEvolution scores candidates. The current board (2026-09-26):
 | --- | --- | --- | --- |
 | `test-foundation` | Real unit tests across Helix, MFR, Aether | 6480 | **done 2026-09-23** |
 | `shared-contracts` | Shared event and decision schemas | 5040 | **schemas created** (RFC-0001 accepted) |
-| `cross-project-flow` | Helix → MFR → Aether | 3888 | **next** (unblocked) |
-| `baseline-learning` | Long-term baseline in HelixMind | 2744 | queued |
+| `cross-project-flow` | Helix → MFR → Aether | 3888 | **done 2026-09-26** (RFC-0002) |
+| `baseline-learning` | Long-term baseline in HelixMind | 2744 | **next** |
 
 ---
 
@@ -267,7 +269,7 @@ Direction:
 
 ## Roadmap
 
-See [Prioritization](#prioritization). `test-foundation` and schema files are done. `cross-project-flow` is next.
+See [Prioritization](#prioritization). `test-foundation`, schema files, and `cross-project-flow` are done. `baseline-learning` is next.
 
 ## Serve gate
 

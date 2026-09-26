@@ -32,15 +32,21 @@ Rollback:
 
 ## RFC-0002 — Helix → MFR → Aether data flow
 
-- **Status:** draft
-- **Depends:** RFC-0001 (now accepted)
+- **Status:** implemented (2026-09-26)
+- **Depends:** RFC-0001 (accepted)
 - **Layer:** aether
 - **Summary:** AetherMind may load `helix_insights.json` and `decisions.json` when present, and treat them as evidence instead of only live `psutil` samples.
-- **Motivation:** AetherMind currently re-collects host metrics. It does not yet consume the other layers.
-- **Proposal:** Optional paths via env. Missing files → current behaviour. Confidence increases when independent layers agree.
-- **Risks:** Stale files. Reject evidence older than two runtime cycles.
-- **Rollback:** Ignore optional paths.
+- **Motivation:** AetherMind previously re-collected host metrics. It did not consume the other layers.
+- **Proposal:** Implemented in AetherMind:
+  - Env `HELIX_INSIGHTS_PATH` and `MFR_DECISIONS_PATH`.
+  - Missing / unreadable files → live-psutil behaviour unchanged.
+  - Evidence older than two runtime cycles (4 hours) is rejected.
+  - Independent agreement raises confidence. It does not change the action.
+  - Disagreement is a hypothesis (`possible host mismatch`), not an escalation.
+  - GitHub Actions optionally fetches sibling traces. Private repos need `FATHIMIND_INGEST_TOKEN`.
+- **Risks:** Stale files; Actions `GITHUB_TOKEN` cannot read sibling private repos without a PAT.
+- **Rollback:** Unset the env vars. `reason()` is unchanged.
 
 ## Open
 
-Further RFCs require baseline-learning and Project Factory once RFC-0002 is accepted.
+Further RFCs require baseline-learning and Project Factory.

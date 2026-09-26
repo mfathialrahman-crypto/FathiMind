@@ -2,20 +2,21 @@
 
 Cycle source: SovereignEvolution v1.1. test-foundation shipped 2026-09-23.
 shared-contracts schemas created 2026-09-26.
+cross-project-flow implemented 2026-09-26 (RFC-0002).
 
 ## O1 — Make the ecosystem verifiable
 
 | KR | Measure | Status |
 | --- | --- | --- |
 | Unit tests on Helix, MFR, Aether core pipelines | pytest present and green in CI | **done 2026-09-23** |
-| One JSON contract for events and decisions | schema files in this repo (`schemas/`) | **created 2026-09-26** (consumption by runtimes still pending) |
+| One JSON contract for events and decisions | schema files in this repo (`schemas/`) | **created 2026-09-26** (runtime validation still pending) |
 | Zero untraced decisions | every `decisions.json` entry has evidence + confidence | in production for MFR |
 
 ## O2 — Connect layers without merging repositories
 
 | KR | Measure | Status |
 | --- | --- | --- |
-| AetherMind optionally reads Helix + MFR outputs | documented flag, no crash if files absent | not started (unblocked by RFC-0001) |
+| AetherMind optionally reads Helix + MFR outputs | env paths, stale rejection, no crash if files absent, pytest on ingest | **done 2026-09-26** (RFC-0002) |
 | Evolution measures execution | report gap list edited by hand; the engine does not clone the other repos | corrected — not an automatic scanner |
 
 ## O3 — GitHub at operating-system grade

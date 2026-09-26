@@ -7,14 +7,14 @@ flowchart TD
   T[Host telemetry] --> H[HelixMind — measure]
   H -->|insights, events, health| M[MFR-Cognition — verify]
   M -->|decision object| A[AetherMind — reason]
-  H -.->|optional contract| A
+  H -->|optional contract RFC-0002| A
   A -->|recommendations, gaps| S[SovereignEvolution — evolve]
   M --> S
   H --> S
   S -->|next scored target| Dev[Human + future Project Factory]
 ```
 
-Dashed arrows are **planned contracts**. Solid arrows from Helix/MFR/Aether into SovereignEvolution today are **analysis of public files**, not a runtime bus.
+Helix → Aether and MFR → Aether are **optional contracts** (RFC-0002). Missing or stale files do not change live-psutil reasoning. Solid arrows from Helix/MFR/Aether into SovereignEvolution today are **analysis of public files**, not a runtime bus.
 
 ## Layer contracts (intent)
 
