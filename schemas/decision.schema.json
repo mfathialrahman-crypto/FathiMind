@@ -1,0 +1,59 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/mfathialrahman-crypto/FathiMind/schemas/decision.schema.json",
+  "title": "FathiMind Decision",
+  "description": "Shared contract for MFR-Cognition decision objects. Layer: verify. Additive fields allowed.",
+  "type": "object",
+  "required": ["timestamp", "status", "confidence", "input", "evidence", "anomalies"],
+  "properties": {
+    "timestamp": {
+      "type": "string",
+      "format": "date-time",
+      "description": "ISO-8601 UTC timestamp of the decision"
+    },
+    "status": {
+      "type": "string",
+      "enum": ["stable", "warning", "critical"],
+      "description": "Overall system status derived from evidence"
+    },
+    "confidence": {
+      "type": "number",
+      "minimum": 0.3,
+      "maximum": 0.98,
+      "description": "Confidence score of the decision (bounded by design)"
+    },
+    "input": {
+      "type": "object",
+      "description": "Snapshot of input metrics at decision time",
+      "additionalProperties": true
+    },
+    "evidence": {
+      "type": "array",
+      "description": "List of evidence items that justified the decision",
+      "items": {
+        "oneOf": [
+          { "type": "string" },
+          {
+            "type": "object",
+            "properties": {
+              "type": { "type": "string" },
+              "name": { "type": "string" },
+              "value": {}
+            },
+            "additionalProperties": true
+          }
+        ]
+      }
+    },
+    "anomalies": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Detected anomalies or status notes"
+    },
+    "signature": {
+      "type": "string",
+      "description": "Optional integrity hash (SHA-256 preferred)"
+    }
+  },
+  "additionalProperties": true
+}
