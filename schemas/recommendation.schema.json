@@ -1,0 +1,40 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/mfathialrahman-crypto/FathiMind/schemas/recommendation.schema.json",
+  "title": "FathiMind Recommendation",
+  "description": "Shared contract for AetherMind recommendations. Layer: reason. Additive fields allowed.",
+  "type": "object",
+  "required": ["action", "priority", "reason", "confidence"],
+  "properties": {
+    "action": {
+      "type": "string",
+      "description": "Recommended action (e.g. continue_normal_operations, monitor_closely, investigate_immediately)"
+    },
+    "priority": {
+      "type": "string",
+      "enum": ["info", "low", "medium", "high", "critical"],
+      "description": "Priority of the recommendation"
+    },
+    "reason": {
+      "type": "string",
+      "description": "Human-readable justification"
+    },
+    "confidence": {
+      "type": "number",
+      "minimum": 0.0,
+      "maximum": 1.0,
+      "description": "Confidence in the recommendation. Low confidence should suppress strong actions."
+    },
+    "hypotheses": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "List of hypotheses that led to this recommendation"
+    },
+    "timestamp": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Optional ISO-8601 timestamp"
+    }
+  },
+  "additionalProperties": true
+}
