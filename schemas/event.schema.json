@@ -1,0 +1,49 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/mfathialrahman-crypto/FathiMind/schemas/event.schema.json",
+  "title": "FathiMind Event",
+  "description": "Shared contract for HelixMind events. Layer: measure. Additive fields allowed.",
+  "type": "object",
+  "required": ["id", "timestamp", "generation", "type", "severity", "confidence", "signals", "explanation"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Unique event identifier (hex signature preferred)"
+    },
+    "timestamp": {
+      "type": "string",
+      "format": "date-time",
+      "description": "ISO-8601 UTC timestamp"
+    },
+    "generation": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "HelixMind generation / cycle number"
+    },
+    "type": {
+      "type": "string",
+      "description": "Event category (e.g. resource_pressure, anomaly, stability)"
+    },
+    "severity": {
+      "type": "string",
+      "enum": ["info", "warning", "critical"],
+      "description": "Severity level"
+    },
+    "confidence": {
+      "type": "number",
+      "minimum": 0.0,
+      "maximum": 1.0,
+      "description": "Confidence in the event detection"
+    },
+    "signals": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "List of contributing signals (cpu, memory, disk, load, ...)"
+    },
+    "explanation": {
+      "type": "string",
+      "description": "Human-readable explanation of the event"
+    }
+  },
+  "additionalProperties": true
+}
