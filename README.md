@@ -58,7 +58,7 @@ FathiMind is the public spine of four repositories owned by [mfathialrahman-cryp
 | [AetherMind](https://github.com/mfathialrahman-crypto/AetherMind) | Intelligence / reasoning | v1.1 | every 2 hours |
 | [SovereignEvolution](https://github.com/mfathialrahman-crypto/SovereignEvolution) | Permanent evolution engine | v1.1 | daily 03:00 UTC |
 
-Last traces on main (2026-09-23): Helix generation **59** at 03:11 UTC, health **94/100** (disk 81.3, component 14); MFR generation **267** at 02:18 UTC, **STABLE / 0.85**; Aether generation **58** at 03:23 UTC, `continue_normal_operations / 0.80`. test-foundation is on main as of 08:15 UTC. The pytest step is in each cycle workflow. Those three schedules have not run again since the step was added. SovereignEvolution's extra cycle at 08:16 UTC did run the gate, and it passed.
+Last traces on main (2026-09-23): Helix generation **59** at 03:11 UTC, health **94/100** (disk 81.3, component 14); MFR generation **267** at 02:18 UTC, **STABLE / 0.85**; Aether generation **58** at 03:23 UTC, `continue_normal_operations / 0.80`. test-foundation is on main as of 08:15 UTC. Shared schemas (RFC-0001) created 2026-09-26.
 
 ---
 
@@ -92,6 +92,8 @@ Layers are separated on purpose.
 Shared rule: **no tight coupling**. Cross-layer flow is a contract, not a merge.
 
 Full diagram: [docs/architecture.md](docs/architecture.md)
+
+Schemas live in [`schemas/`](./schemas/).
 
 ---
 
@@ -154,13 +156,14 @@ Quality is not a slogan. It is HelixMind's health model plus the evolution rule:
 Shipped:
 
 - Unit tests on HelixMind, MFR-Cognition, and AetherMind. A red suite blocks the 2-hour cycle.
+- Shared JSON schemas (RFC-0001 accepted 2026-09-26).
 
-Still open. The evolution report's gap list is a handwritten function in `analyze_ecosystem()`. It does not clone the other repositories:
+Still open:
 
-- No shared event/schema contracts (RFC-0001, still draft)
-- No cross-project data flow yet (RFC-0002, blocked on the schemas)
-- No long-term baseline learning
-- Project Factory discovered, not operational
+- Runtime validation of schemas (optional, non-blocking)
+- Cross-project data flow (RFC-0002)
+- Long-term baseline learning
+- Project Factory operationalization
 
 Those gaps are the roadmap. They are not hidden.
 
@@ -171,8 +174,8 @@ Those gaps are the roadmap. They are not hidden.
 ### O1 — Make the ecosystem verifiable
 
 - KR: pytest on the three critical pipelines — **done 2026-09-23**
-- KR: one JSON contract for events and decisions
-- KR: zero decisions without an evidence trace
+- KR: one JSON contract for events and decisions — **schemas created 2026-09-26**
+- KR: zero decisions without an evidence trace — in production for MFR
 
 ### O2 — Connect layers without merging repositories
 
@@ -190,16 +193,14 @@ Detail: [docs/okrs.md](docs/okrs.md)
 
 ## Prioritization
 
-SovereignEvolution scores candidates. The current board:
+SovereignEvolution scores candidates. The current board (2026-09-26):
 
 | ID | Title | Score | State |
 | --- | --- | --- | --- |
 | `test-foundation` | Real unit tests across Helix, MFR, Aether | 6480 | **done 2026-09-23** |
-| `shared-contracts` | Shared event and decision schemas | 5040 | **next** (RFC-0001 still draft — not started) |
-| `cross-project-flow` | Helix → MFR → Aether | 3888 | queued, blocked on the schemas |
+| `shared-contracts` | Shared event and decision schemas | 5040 | **schemas created** (RFC-0001 accepted) |
+| `cross-project-flow` | Helix → MFR → Aether | 3888 | **next** (unblocked) |
 | `baseline-learning` | Long-term baseline in HelixMind | 2744 | queued |
-
-test-foundation is the first target executed as code. The other three have not been. shared-contracts is next and stays unstarted until RFC-0001 is accepted.
 
 ---
 
@@ -266,12 +267,11 @@ Direction:
 
 ## Roadmap
 
-See [Prioritization](#prioritization). Issue 1 (`test-foundation`) is done. Issues 2–4 stay open.
+See [Prioritization](#prioritization). `test-foundation` and schema files are done. `cross-project-flow` is next.
 
 ## Serve gate
 
 Private skill [`auto-serve`](https://github.com/mfathialrahman-crypto/auto-serve). A result is served only when evidence is present, fresh, and confidence clears the floor AetherMind already enforces (0.45). A calm serve needs 0.70. The skill never mutates an engine and never writes a schema. Helix health is not a confidence.
-
 
 ---
 
@@ -300,6 +300,7 @@ Automation is GitHub Actions on each repository.
 - [Architecture](docs/architecture.md)
 - [OKRs](docs/okrs.md)
 - [RFCs](docs/rfcs.md)
+- [Schemas](./schemas/)
 - [Contributing](CONTRIBUTING.md)
 - [Security](SECURITY.md)
 
