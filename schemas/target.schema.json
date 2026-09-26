@@ -1,0 +1,53 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/mfathialrahman-crypto/FathiMind/schemas/target.schema.json",
+  "title": "FathiMind Target",
+  "description": "Shared contract for SovereignEvolution development targets. Layer: evolve. Additive fields allowed.",
+  "type": "object",
+  "required": ["id", "title", "score", "description"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Stable machine-readable identifier (e.g. shared-contracts, baseline-learning)"
+    },
+    "title": {
+      "type": "string",
+      "description": "Human-readable title"
+    },
+    "score": {
+      "type": "number",
+      "minimum": 0,
+      "description": "Priority score = impact × feasibility × strategic × reusability"
+    },
+    "description": {
+      "type": "string",
+      "description": "What this target achieves and why it matters"
+    },
+    "impact": {
+      "type": "number",
+      "minimum": 1,
+      "maximum": 10
+    },
+    "feasibility": {
+      "type": "number",
+      "minimum": 1,
+      "maximum": 10
+    },
+    "strategic": {
+      "type": "number",
+      "minimum": 1,
+      "maximum": 10
+    },
+    "reusability": {
+      "type": "number",
+      "minimum": 1,
+      "maximum": 10
+    },
+    "state": {
+      "type": "string",
+      "enum": ["queued", "next", "in_progress", "done", "blocked"],
+      "description": "Current lifecycle state of the target"
+    }
+  },
+  "additionalProperties": true
+}
