@@ -1,20 +1,21 @@
 # OKRs — operating quarter
 
 Cycle source: SovereignEvolution v1.1. test-foundation shipped 2026-09-23.
+shared-contracts schemas created 2026-09-26.
 
 ## O1 — Make the ecosystem verifiable
 
 | KR | Measure | Status |
 | --- | --- | --- |
 | Unit tests on Helix, MFR, Aether core pipelines | pytest present and green in CI | **done 2026-09-23** |
-| One JSON contract for events and decisions | schema files in this repo, consumed by runtimes | not started |
+| One JSON contract for events and decisions | schema files in this repo (`schemas/`) | **created 2026-09-26** (consumption by runtimes still pending) |
 | Zero untraced decisions | every `decisions.json` entry has evidence + confidence | in production for MFR |
 
 ## O2 — Connect layers without merging repositories
 
 | KR | Measure | Status |
 | --- | --- | --- |
-| AetherMind optionally reads Helix + MFR outputs | documented flag, no crash if files absent | not started |
+| AetherMind optionally reads Helix + MFR outputs | documented flag, no crash if files absent | not started (unblocked by RFC-0001) |
 | Evolution measures execution | report gap list edited by hand; the engine does not clone the other repos | corrected — not an automatic scanner |
 
 ## O3 — GitHub at operating-system grade
