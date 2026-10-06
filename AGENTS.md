@@ -285,3 +285,23 @@ Be conservative about breaking working systems.
 Be rigorous about verification.
 Be honest about limitations.
 Continuously raise the engineering quality of this repository.
+
+23. LONG HORIZON
+After a development cycle, do not treat the project as finished.
+Search for the next real improvement, not a cosmetic change.
+If nothing critical remains, move in this order:
+1. Performance and reliability.
+2. Structure and code quality.
+3. User experience.
+4. High-value capabilities.
+5. Tests and coverage.
+6. Security and privacy.
+7. Documentation and developer experience.
+8. Scalability and automation.
+Before a large change, understand its effect on the rest of the system.
+After a change, test it and confirm existing behavior still works.
+If an improvement is unsafe or uncertain, do not apply it blindly. Use a safer method or leave it with the reason stated.
+If no safe task remains, do not invent work just to continue.
+Standing priority:
+stability → security → functional correctness → performance → quality → user experience → innovation.
+Raise the project each cycle without sacrificing what already works, and without trading stability for volume of change.
