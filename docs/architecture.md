@@ -7,14 +7,14 @@ flowchart TD
   T[Host telemetry] --> H[HelixMind — measure]
   H -->|insights, events, health| M[MFR-Cognition — verify]
   M -->|decision object| A[AetherMind — reason]
-  H -.->|optional contract| A
+  H -.->|optional sibling envelope| A
   A -->|recommendations, gaps| S[SovereignEvolution — evolve]
   M --> S
   H --> S
-  S -->|next scored target| Dev[Human + future Project Factory]
+  S -->|next scored target| Dev[Human + Project Factory]
 ```
 
-Dashed arrows are **planned contracts**. Solid arrows from Helix/MFR/Aether into SovereignEvolution today are **analysis of public files**, not a runtime bus.
+Solid arrows are active analysis paths. The optional Helix → Aether path is RFC-0002 (implemented): AetherMind may ingest local sibling envelopes when present.
 
 ## Layer contracts (intent)
 
@@ -70,7 +70,7 @@ Dashed arrows are **planned contracts**. Solid arrows from Helix/MFR/Aether into
 }
 ```
 
-These four objects are the shared language. Implementation of `shared-contracts` freezes them as versioned schemas.
+These four objects are the shared language. Implementation of `shared-contracts` freezes them as versioned schemas under `schemas/`.
 
 ## Non-goals
 

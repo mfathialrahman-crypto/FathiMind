@@ -1,22 +1,21 @@
 # OKRs — operating quarter
 
-Cycle source: SovereignEvolution v1.1. test-foundation shipped 2026-09-23.
-shared-contracts schemas created 2026-09-26.
+Cycle source: SovereignEvolution. Status as of 2026-10-13.
 
 ## O1 — Make the ecosystem verifiable
 
 | KR | Measure | Status |
 | --- | --- | --- |
-| Unit tests on Helix, MFR, Aether core pipelines | pytest present and green in CI | **done 2026-09-23** |
-| One JSON contract for events and decisions | schema files in this repo (`schemas/`) | **created 2026-09-26** (consumption by runtimes still pending) |
-| Zero untraced decisions | every `decisions.json` entry has evidence + confidence | in production for MFR |
+| Unit tests on Helix, MFR, Aether core pipelines | pytest present and green in CI | **done** |
+| One JSON contract for events and decisions | schema files in this repo (`schemas/`) | **done** (RFC-0001) |
+| Zero untraced decisions | every decision entry has evidence + confidence | in production for MFR |
 
 ## O2 — Connect layers without merging repositories
 
 | KR | Measure | Status |
 | --- | --- | --- |
-| AetherMind optionally reads Helix + MFR outputs | documented flag, no crash if files absent | not started (unblocked by RFC-0001) |
-| Evolution measures execution | report gap list edited by hand; the engine does not clone the other repos | corrected — not an automatic scanner |
+| AetherMind optionally reads Helix + MFR outputs | documented flag / sibling envelope ingest, no crash if files absent | **done** (RFC-0002) |
+| Evolution measures execution | engine records gaps and selects next target from real state | **done** (completed targets include baseline-learning, cross-project-flow, live-envelope-ingest, project-factory) |
 
 ## O3 — GitHub at operating-system grade
 
