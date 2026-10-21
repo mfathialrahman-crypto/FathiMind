@@ -12,6 +12,7 @@ The format is based on Keep a Changelog, and this project adheres to semantic ve
 
 ### Changed
 - Open issues for completed targets (shared-contracts, cross-project-flow, baseline-learning) marked for closure after verification.
+- Handbook README synchronized with Public Core Pro v2.1.15-pro (27 unit tests verified passing).
 
 ## [2026-10-21]
 
