@@ -12,6 +12,7 @@ The format is based on Keep a Changelog, and this project adheres to semantic ve
 
 ### Changed
 - Open issues for completed targets (shared-contracts, cross-project-flow, baseline-learning) marked for closure after verification.
+- Public Core Pro version in README and ecosystem table synchronized to v2.1.16-pro (includes fingerprint+question on insufficient reports and validate_report() checker).
 
 ## [2026-10-21]
 
