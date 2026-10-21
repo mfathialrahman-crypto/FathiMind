@@ -35,3 +35,9 @@ The format is based on Keep a Changelog, and this project adheres to semantic ve
 
 ### Added
 - Initial FathiMind HQ handbook, OKRs, RFCs template, and public issues for evolution targets.
+
+## [2026-10-21] continued
+
+### Changed
+- Closed completed evolution target issues #2 (shared-contracts), #3 (cross-project-flow), #4 (baseline-learning) after verification against implemented schemas, RFC docs, and private engine status.
+
