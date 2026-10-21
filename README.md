@@ -136,6 +136,7 @@ Automation is GitHub Actions on each repository.
 - [OKRs](docs/okrs.md)
 - [RFCs](docs/rfcs.md)
 - [Schemas](./schemas/)
+- [Changelog](CHANGELOG.md)
 - [Contributing](CONTRIBUTING.md)
 - [Security](SECURITY.md)
 - [AGENTS.md](AGENTS.md) — Project Engineering Constitution
