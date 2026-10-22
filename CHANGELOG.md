@@ -6,13 +6,21 @@ The format is based on Keep a Changelog, and this project adheres to semantic ve
 
 ## [Unreleased]
 
+### Changed
+- AGENTS.md footer updated to confirm review on 2026-10-22 and ecosystem-wide presence.
+
 ### Added
-- AGENTS.md Project Engineering Constitution with long-horizon continuous improvement cycle (reviewed 2026-10-21).
+- AGENTS.md Project Engineering Constitution with long-horizon continuous improvement cycle (reviewed 2026-10-21, confirmed 2026-10-22).
 - Explicit links and status for completed SovereignEvolution targets in README and docs.
 
 ### Changed
 - Open issues for completed targets (shared-contracts, cross-project-flow, baseline-learning) marked for closure after verification.
 - Public Core Pro version in README and ecosystem table synchronized to v2.1.16-pro (includes fingerprint+question on insufficient reports and validate_report() checker).
+
+## [2026-10-22]
+
+### Changed
+- Confirmed AGENTS.md constitution present and reviewed across the ecosystem.
 
 ## [2026-10-21]
 
