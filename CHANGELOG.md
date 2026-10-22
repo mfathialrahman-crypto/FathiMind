@@ -7,6 +7,7 @@ The format is based on Keep a Changelog, and this project adheres to semantic ve
 ## [Unreleased]
 
 ### Changed
+- Public Core Pro version in README badge, ecosystem table, and status paragraph synchronized to v2.1.17-pro (empty-question rejection at construction; 31 tests).
 - AGENTS.md footer updated to confirm review on 2026-10-22 and ecosystem-wide presence.
 
 ### Added
@@ -21,6 +22,7 @@ The format is based on Keep a Changelog, and this project adheres to semantic ve
 
 ### Changed
 - Confirmed AGENTS.md constitution present and reviewed across the ecosystem.
+- Synchronized Public Core Pro status to v2.1.17-pro.
 
 ## [2026-10-21]
 
