@@ -7,16 +7,17 @@ The format is based on Keep a Changelog, and this project adheres to semantic ve
 ## [Unreleased]
 
 ### Changed
-- Public Core Pro version in README badge, ecosystem table, and status paragraph synchronized to v2.1.17-pro (empty-question rejection at construction; 31 tests).
-- AGENTS.md footer updated to confirm review on 2026-10-22 and ecosystem-wide presence.
+- Public Core Pro version in README badge, ecosystem table, and status paragraph synchronized to v2.1.22-pro (code quality cleanup; alternatives in suggestions; empty-question rejection; 33 tests).
+- AGENTS.md footer updated to confirm review on 2026-10-23 and ecosystem-wide presence.
 
 ### Added
-- AGENTS.md Project Engineering Constitution with long-horizon continuous improvement cycle (reviewed 2026-10-21, confirmed 2026-10-22).
+- AGENTS.md Project Engineering Constitution with long-horizon continuous improvement cycle (reviewed 2026-10-21, confirmed 2026-10-23).
 - Explicit links and status for completed SovereignEvolution targets in README and docs.
 
+## [2026-10-23]
+
 ### Changed
-- Open issues for completed targets (shared-contracts, cross-project-flow, baseline-learning) marked for closure after verification.
-- Public Core Pro version in README and ecosystem table synchronized to v2.1.16-pro (includes fingerprint+question on insufficient reports and validate_report() checker).
+- Synchronized Public Core Pro status to v2.1.22-pro.
 
 ## [2026-10-22]
 
