@@ -7,12 +7,17 @@ The format is based on Keep a Changelog, and this project adheres to semantic ve
 ## [Unreleased]
 
 ### Changed
-- Public Core Pro status synchronized to v2.1.22-pro (unused imports removed; version alignment complete across version.py, pyproject.toml, README; 33 unit tests pass; CI green).
+- Public Core Pro status synchronized to v2.1.23-pro (regression test for all non-independent evidence added; version alignment complete across version.py, pyproject.toml, README; 34 unit tests pass; CI green).
 - AGENTS.md constitution reviewed and confirmed present (2026-10-24).
 
 ### Added
 - AGENTS.md Project Engineering Constitution with long-horizon continuous improvement cycle (reviewed 2026-10-21, confirmed 2026-10-24).
 - Explicit links and status for completed SovereignEvolution targets in README and docs.
+
+## [2026-10-24]
+
+### Changed
+- Public Core Pro version in README badge, ecosystem table, and status paragraph synchronized to v2.1.23-pro.
 
 ## [2026-10-23]
 
