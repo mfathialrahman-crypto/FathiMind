@@ -7,12 +7,17 @@ The format is based on Keep a Changelog, and this project adheres to semantic ve
 ## [Unreleased]
 
 ### Changed
-- Public Core Pro badge in README aligned to v2.1.28-pro (single source of truth version.py). Ecosystem table and status paragraph already correct.
-- AGENTS.md constitution reviewed and confirmed present (2026-10-24).
+- Public Core Pro references in README (badge, ecosystem table, status paragraph) aligned to v2.1.29-pro (SSOT version.py). Resolves public-surface drift after Core Pro coverage expansion.
+- AGENTS.md constitution confirmed present and matching long-horizon doctrine.
 
 ### Added
-- AGENTS.md Project Engineering Constitution with long-horizon continuous improvement cycle (reviewed 2026-10-21, confirmed 2026-10-24).
+- AGENTS.md Project Engineering Constitution with long-horizon continuous improvement cycle (reviewed 2026-10-21, confirmed 2026-10-25).
 - Explicit links and status for completed SovereignEvolution targets in README and docs.
+
+## [2026-10-25]
+
+### Changed
+- Public Core Pro version in README badge, ecosystem table, and status paragraph synchronized to v2.1.29-pro.
 
 ## [2026-10-24]
 
