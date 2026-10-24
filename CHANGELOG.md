@@ -7,7 +7,7 @@ The format is based on Keep a Changelog, and this project adheres to semantic ve
 ## [Unreleased]
 
 ### Changed
-- Public Core Pro status synchronized to v2.1.23-pro (regression test for all non-independent evidence added; version alignment complete across version.py, pyproject.toml, README; 34 unit tests pass; CI green).
+- Public Core Pro badge in README synchronized to v2.1.28-pro (table and status paragraph were already correct; version.py SSOT confirmed; 28 unit tests pass on Core-Pro).
 - AGENTS.md constitution reviewed and confirmed present (2026-10-24).
 
 ### Added
