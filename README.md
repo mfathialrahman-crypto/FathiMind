@@ -38,9 +38,9 @@ INPUT (host telemetry)
 | [MFR-Cognition](https://github.com/mfathialrahman-crypto/MFR-Cognition) | Cognitive core | v4.2.254 | every 2 hours |
 | [AetherMind](https://github.com/mfathialrahman-crypto/AetherMind) | Intelligence / reasoning | v1.3 | every 2 hours |
 | [SovereignEvolution](https://github.com/mfathialrahman-crypto/SovereignEvolution) | Permanent evolution engine | v1.44 | daily 03:00 UTC |
-| [MFR Adaptive Intelligence Core Pro](https://github.com/mfathialrahman-crypto/MFR-Adaptive-Intelligence-Core-Pro) | **Public** transparent analysis | v2.1.27-pro | continuous |
+| [MFR Adaptive Intelligence Core Pro](https://github.com/mfathialrahman-crypto/MFR-Adaptive-Intelligence-Core-Pro) | **Public** transparent analysis | v2.1.28-pro | continuous |
 
-Current heads: HelixMind v1.2 with long-window baseline; MFR-Cognition v4.2.254 with expanded host metrics (uptime, battery, CPU freq, temperatures, I/O), hardened redaction and decision traces; AetherMind v1.3 with optional sibling envelope ingest; SovereignEvolution v1.44 with completed targets. Shared schemas (RFC-0001) under `schemas/`. Public Core Pro at v2.1.27-pro (CLI --version and --validate flags; 26 unit tests pass; pure-Python validate_report() contract checker; all analysis outputs satisfy analysis.schema.json; insufficient-evidence reports include fingerprint and question; public docs aligned to version.py SSOT).
+Current heads: HelixMind v1.2 with long-window baseline; MFR-Cognition v4.2.254 with expanded host metrics (uptime, battery, CPU freq, temperatures, I/O), hardened redaction and decision traces; AetherMind v1.3 with optional sibling envelope ingest; SovereignEvolution v1.44 with completed targets. Shared schemas (RFC-0001) under `schemas/`. Public Core Pro at v2.1.28-pro (CLI --version and --validate flags; 28 unit tests pass; pure-Python validate_report() contract checker; all analysis outputs satisfy analysis.schema.json; insufficient-evidence reports include fingerprint and question; public docs aligned to version.py SSOT).
 
 ---
 
