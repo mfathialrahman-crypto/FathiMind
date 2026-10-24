@@ -7,7 +7,7 @@
 **Human-centric cognitive engineering operating system.**
 
 [![Status](https://img.shields.io/badge/Ecosystem-Live-brightgreen)](https://github.com/mfathialrahman-crypto)
-[![Public Core](https://img.shields.io/badge/Public%20Core-MIT%20v2.1.23--pro-orange)](https://github.com/mfathialrahman-crypto/MFR-Adaptive-Intelligence-Core-Pro)
+[![Public Core](https://img.shields.io/badge/Public%20Core-MIT%20v2.1.24--pro-orange)](https://github.com/mfathialrahman-crypto/MFR-Adaptive-Intelligence-Core-Pro)
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue)](https://www.python.org/)
 
 This repository is the headquarters. It is not a list of other people's articles. It is the operating handbook for a system that already runs.
@@ -38,9 +38,9 @@ INPUT (host telemetry)
 | [MFR-Cognition](https://github.com/mfathialrahman-crypto/MFR-Cognition) | Cognitive core | v4.2.254 | every 2 hours |
 | [AetherMind](https://github.com/mfathialrahman-crypto/AetherMind) | Intelligence / reasoning | v1.3 | every 2 hours |
 | [SovereignEvolution](https://github.com/mfathialrahman-crypto/SovereignEvolution) | Permanent evolution engine | v1.44 | daily 03:00 UTC |
-| [MFR Adaptive Intelligence Core Pro](https://github.com/mfathialrahman-crypto/MFR-Adaptive-Intelligence-Core-Pro) | **Public** transparent analysis | v2.1.23-pro | continuous |
+| [MFR Adaptive Intelligence Core Pro](https://github.com/mfathialrahman-crypto/MFR-Adaptive-Intelligence-Core-Pro) | **Public** transparent analysis | v2.1.24-pro | continuous |
 
-Current heads: HelixMind v1.2 with long-window baseline; MFR-Cognition v4.2.254 with expanded host metrics (uptime, battery, CPU freq, temperatures, I/O), hardened redaction and decision traces; AetherMind v1.3 with optional sibling envelope ingest; SovereignEvolution v1.44 with completed targets. Shared schemas (RFC-0001) under `schemas/`. Public Core Pro at v2.1.23-pro (regression test for all non-independent evidence; version alignment complete across version.py, pyproject.toml, README; 34 unit tests pass; CI matrix 3.10–3.13 green; pure-Python validate_report() contract checker; all analysis outputs satisfy analysis.schema.json; public docs aligned to version.py SSOT).
+Current heads: HelixMind v1.2 with long-window baseline; MFR-Cognition v4.2.254 with expanded host metrics (uptime, battery, CPU freq, temperatures, I/O), hardened redaction and decision traces; AetherMind v1.3 with optional sibling envelope ingest; SovereignEvolution v1.44 with completed targets. Shared schemas (RFC-0001) under `schemas/`. Public Core Pro at v2.1.24-pro (CLI --validate flag for contract checking; 35 unit tests pass; pure-Python validate_report() contract checker; all analysis outputs satisfy analysis.schema.json; insufficient-evidence reports include fingerprint and question; public docs aligned to version.py SSOT).
 
 ---
 
