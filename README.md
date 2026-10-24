@@ -7,7 +7,7 @@
 **Human-centric cognitive engineering operating system.**
 
 [![Status](https://img.shields.io/badge/Ecosystem-Live-brightgreen)](https://github.com/mfathialrahman-crypto)
-[![Public Core](https://img.shields.io/badge/Public%20Core-MIT%20v2.1.26--pro-orange)](https://github.com/mfathialrahman-crypto/MFR-Adaptive-Intelligence-Core-Pro)
+[![Public Core](https://img.shields.io/badge/Public%20Core-MIT%20v2.1.28--pro-orange)](https://github.com/mfathialrahman-crypto/MFR-Adaptive-Intelligence-Core-Pro)
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue)](https://www.python.org/)
 
 This repository is the headquarters. It is not a list of other people's articles. It is the operating handbook for a system that already runs.
