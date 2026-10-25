@@ -7,7 +7,7 @@ The format is based on Keep a Changelog, and this project adheres to semantic ve
 ## [Unreleased]
 
 ### Changed
-- Public Core Pro references in README (badge, ecosystem table, status paragraph) aligned to v2.1.29-pro (SSOT version.py). Resolves public-surface drift after Core Pro coverage expansion.
+- Public Core Pro references in README (badge, ecosystem table, status paragraph) aligned to v2.1.34-pro (SSOT version.py). Reflects O(n) opposition optimization, CLI invalid-weight robustness, version-consistency CI, and 38 unit tests.
 - AGENTS.md constitution confirmed present and matching long-horizon doctrine.
 
 ### Added
@@ -17,7 +17,7 @@ The format is based on Keep a Changelog, and this project adheres to semantic ve
 ## [2026-10-25]
 
 ### Changed
-- Public Core Pro version in README badge, ecosystem table, and status paragraph synchronized to v2.1.29-pro.
+- Public Core Pro version in README badge, ecosystem table, and status paragraph synchronized to v2.1.34-pro.
 
 ## [2026-10-24]
 
