@@ -7,8 +7,8 @@ The format is based on Keep a Changelog, and this project adheres to semantic ve
 ## [Unreleased]
 
 ### Changed
-- Public Core Pro references in README (badge, ecosystem table, status paragraph) aligned to v2.1.35-pro (SSOT version.py). Reflects named OPPOSITION_FACTOR for soft residual opposition (maintainability, no numerical change), prior O(n) optimization, CLI robustness, version-consistency CI, and 38 unit tests.
-- AGENTS.md constitution footer updated after 2026-10-26 full ecosystem inspection (Core Pro 38/38 unit tests passed locally; no critical issues).
+- Public Core Pro references in README (badge, ecosystem table, status paragraph) aligned to v2.1.38-pro (SSOT version.py). Reflects named CI_Z_SCORE for approximate 95% CI clarity (maintainability, no numerical change), prior PRIOR_STRENGTH / OPPOSITION_FACTOR / O(n) optimization, CLI robustness, version-consistency CI, and 38 unit tests.
+- AGENTS.md constitution footer updated after 2026-10-26 alignment cycle (Core Pro at v2.1.38-pro; 38/38 unit tests previously verified; no critical issues).
 
 ### Added
 - AGENTS.md Project Engineering Constitution with long-horizon continuous improvement cycle (reviewed 2026-10-21, confirmed 2026-10-25 and 2026-10-26).
@@ -17,8 +17,8 @@ The format is based on Keep a Changelog, and this project adheres to semantic ve
 ## [2026-10-26]
 
 ### Changed
-- Public Core Pro version in README badge, ecosystem table, and status paragraph synchronized to v2.1.35-pro.
-- AGENTS.md footer updated to record the latest inspection cycle results (38/38 tests, constitution confirmed).
+- Public Core Pro version in README badge, ecosystem table, and status paragraph synchronized to v2.1.38-pro.
+- AGENTS.md footer updated to record the latest inspection and alignment cycle results.
 
 ## [2026-10-25]
 
