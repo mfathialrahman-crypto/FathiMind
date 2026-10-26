@@ -6,6 +6,9 @@ The format is based on Keep a Changelog, and this project adheres to semantic ve
 
 ## [Unreleased]
 
+### Documented
+- Independent full ecosystem inspection cycle (2026-10-26): Core Pro re-verified with 38/38 unit tests and mypy --strict clean. AGENTS.md constitution review notes updated in HQ and public core. No critical issues. Public surface remains at v2.1.38-pro.
+
 ### Changed
 - Public Core Pro references in README (badge, ecosystem table, status paragraph) aligned to v2.1.38-pro (SSOT version.py). Reflects named CI_Z_SCORE for approximate 95% CI clarity (maintainability, no numerical change), prior PRIOR_STRENGTH / OPPOSITION_FACTOR / O(n) optimization, CLI robustness, version-consistency CI, and 38 unit tests.
 - AGENTS.md constitution footer updated after 2026-10-26 alignment cycle (Core Pro at v2.1.38-pro; 38/38 unit tests previously verified; no critical issues).
