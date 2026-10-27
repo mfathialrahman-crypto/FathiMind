@@ -345,4 +345,4 @@ stability → security → functional correctness → performance → quality �
 Raise the project each cycle without sacrificing what already works, and without trading stability for volume of change.
 
 ---
-*Last reviewed and confirmed in repository: 2026-10-27 (independent cycle: Core Pro at v2.1.42-pro; pytest 39/39 passed, mypy --strict clean, evidence-file object format supported, documentation synced across FathiMind README and STATUS; AGENTS.md constitution present, aligned, and saved). Continuous improvement cycle active. Public surface at v2.1.42-pro. No critical issues.*
+*Last reviewed and confirmed in repository: 2026-10-27 (independent cycle: Core Pro at v2.1.42-pro; pytest 39/39 passed, coverage ~66% measured, evidence-file object format supported, documentation synced; AGENTS.md constitution present, aligned, and saved). Continuous improvement cycle active. Public surface at v2.1.42-pro. No critical issues.*
