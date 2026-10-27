@@ -345,4 +345,4 @@ stability → security → functional correctness → performance → quality �
 Raise the project each cycle without sacrificing what already works, and without trading stability for volume of change.
 
 ---
-*Last reviewed and confirmed in repository: 2026-10-27 (independent cycle: full repository inspection across FathiMind HQ and Core Pro, pytest 38/38 verified on Core Pro). AGENTS.md constitution present, aligned, and saved. No critical issues. Continuous improvement cycle active. Public surface at v2.1.39-pro.*
+*Last reviewed and confirmed in repository: 2026-10-27 (independent cycle: fixed CLI regression in Core Pro v2.1.40-pro; restored full parser and demo(); pytest 38/38 and CI green on v2.1.41-pro). AGENTS.md constitution present, aligned, and saved. No critical issues. Continuous improvement cycle active. Public surface at v2.1.41-pro.*
