@@ -1,0 +1,30 @@
+name: HQ Handbook Check
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+
+      - name: Check required handbook files
+        run: |
+          echo "Validating FathiMind HQ surface..."
+          for f in README.md AGENTS.md CHANGELOG.md LICENSE SECURITY.md CONTRIBUTING.md; do
+            test -f "$f" || { echo "Missing $f"; exit 1; }
+          done
+          test -d docs || exit 1
+          test -d schemas || exit 1
+          echo "All required files and directories present."
