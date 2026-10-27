@@ -7,6 +7,7 @@
 **Human-centric cognitive engineering operating system.**
 
 [![Status](https://img.shields.io/badge/Ecosystem-Live-brightgreen)](https://github.com/mfathialrahman-crypto)
+[![CI](https://github.com/mfathialrahman-crypto/FathiMind/workflows/HQ%20Handbook%20Check/badge.svg)](https://github.com/mfathialrahman-crypto/FathiMind/actions/workflows/ci.yml)
 [![Public Core](https://img.shields.io/badge/Public%20Core-MIT%20v2.1.42--pro-orange)](https://github.com/mfathialrahman-crypto/MFR-Adaptive-Intelligence-Core-Pro)
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue)](https://www.python.org/)
 
