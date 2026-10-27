@@ -7,7 +7,7 @@
 **Human-centric cognitive engineering operating system.**
 
 [![Status](https://img.shields.io/badge/Ecosystem-Live-brightgreen)](https://github.com/mfathialrahman-crypto)
-[![Public Core](https://img.shields.io/badge/Public%20Core-MIT%20v2.1.39--pro-orange)](https://github.com/mfathialrahman-crypto/MFR-Adaptive-Intelligence-Core-Pro)
+[![Public Core](https://img.shields.io/badge/Public%20Core-MIT%20v2.1.41--pro-orange)](https://github.com/mfathialrahman-crypto/MFR-Adaptive-Intelligence-Core-Pro)
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue)](https://www.python.org/)
 
 This repository is the headquarters. It is not a list of other people's articles. It is the operating handbook for a system that already runs.
@@ -38,9 +38,9 @@ INPUT (host telemetry)
 | [MFR-Cognition](https://github.com/mfathialrahman-crypto/MFR-Cognition) | Cognitive core | v4.2.254 | every 2 hours |
 | [AetherMind](https://github.com/mfathialrahman-crypto/AetherMind) | Intelligence / reasoning | v1.3 | every 2 hours |
 | [SovereignEvolution](https://github.com/mfathialrahman-crypto/SovereignEvolution) | Permanent evolution engine | v1.44 | daily 03:00 UTC |
-| [MFR Adaptive Intelligence Core Pro](https://github.com/mfathialrahman-crypto/MFR-Adaptive-Intelligence-Core-Pro) | **Public** transparent analysis | v2.1.39-pro | continuous |
+| [MFR Adaptive Intelligence Core Pro](https://github.com/mfathialrahman-crypto/MFR-Adaptive-Intelligence-Core-Pro) | **Public** transparent analysis | v2.1.41-pro | continuous |
 
-Current heads: HelixMind v1.2 with long-window baseline; MFR-Cognition v4.2.254 with expanded host metrics (uptime, battery, CPU freq, temperatures, I/O), hardened redaction and decision traces; AetherMind v1.3 with optional sibling envelope ingest; SovereignEvolution v1.44 with completed targets. Shared schemas (RFC-0001) under `schemas/`. Public Core Pro at v2.1.39-pro (FALLBACK_VARIANCE and VARIANCE_FLOOR named constants extracted for CI calculation clarity; previous CI_Z_SCORE, PRIOR_STRENGTH, OPPOSITION_FACTOR and O(n) multi-claim optimization; CLI invalid-weight robustness with exit code 2; version-consistency CI job; 38 unit tests covering decision contract, demo, and validation edge cases; all analysis outputs satisfy analysis.schema.json; docs aligned to version.py SSOT; no numerical behavior change).
+Current heads: HelixMind v1.2 with long-window baseline; MFR-Cognition v4.2.254 with expanded host metrics (uptime, battery, CPU freq, temperatures, I/O), hardened redaction and decision traces; AetherMind v1.3 with optional sibling envelope ingest; SovereignEvolution v1.44 with completed targets. Shared schemas (RFC-0001) under `schemas/`. Public Core Pro at v2.1.41-pro (CLI regression from magic-number extraction in v2.1.40-pro fixed: full argument parser, demo(), --evidence/--evidence-file/--decision/--validate restored; named constants retained including CONFLICT_SECOND_THRESHOLD, STABLE_CONFIDENCE_THRESHOLD, FALLBACK_VARIANCE, VARIANCE_FLOOR, CI_Z_SCORE, PRIOR_STRENGTH, OPPOSITION_FACTOR; 38 unit tests pass; mypy --strict clean; version-consistency CI green; all analysis outputs satisfy analysis.schema.json; docs aligned to version.py SSOT; no numerical behavior change).
 
 ---
 
