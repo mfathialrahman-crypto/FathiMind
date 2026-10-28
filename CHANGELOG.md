@@ -6,11 +6,16 @@ The format is based on Keep a Changelog, and this project adheres to semantic ve
 
 ## [Unreleased]
 
-### Changed
-- Public Core Pro references in README (badge, ecosystem table, status paragraph) aligned to verified v2.1.41-pro (SSOT version.py). Reflects CLI regression fix (full parser and demo() restored after accidental removal during magic-number extraction in v2.1.40-pro), retained named constants (CONFLICT_SECOND_THRESHOLD, STABLE_CONFIDENCE_THRESHOLD, FALLBACK_VARIANCE, VARIANCE_FLOOR, CI_Z_SCORE, PRIOR_STRENGTH, OPPOSITION_FACTOR), 38/38 unit tests, mypy --strict clean, and version-consistency CI green. No numerical behavior change.
-
 ### Documented
-- Independent full ecosystem inspection cycle (2026-10-27): Core Pro re-verified at v2.1.41-pro with CI success, 38/38 tests, and restored CLI. AGENTS.md constitution review notes already current. No critical issues.
+- Independent inspection cycle (2026-10-28): Public Core Pro re-verified at v2.1.42-pro. pytest 41/41 passed, coverage ~68% on mfr_core_pro.py (CLI paths via subprocess), evidence-file object format (question/prior/alternatives) supported with regression test, version-consistency CI green (base version match), mypy --strict clean. AGENTS.md constitution present and aligned. No critical issues. Documentation lag in prior unreleased note corrected.
+
+### Changed
+- Public Core Pro references in README already aligned to v2.1.42-pro.
+
+## [2026-10-27]
+
+### Changed
+- Public Core Pro references synchronized to v2.1.42-pro with evidence-file object format support.
 
 ## [2026-10-26]
 
