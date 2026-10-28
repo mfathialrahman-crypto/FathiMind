@@ -7,7 +7,7 @@ The format is based on Keep a Changelog, and this project adheres to semantic ve
 ## [Unreleased]
 
 ### Documented
-- Independent inspection cycle (2026-10-28): Public Core Pro re-verified at v2.1.42-pro. pytest 41/41 passed, coverage ~68% on mfr_core_pro.py (CLI paths via subprocess), evidence-file object format (question/prior/alternatives) supported with regression test, version-consistency CI green (base version match), mypy --strict clean. AGENTS.md constitution present and aligned. No critical issues. Documentation lag in prior unreleased note corrected.
+- Independent full inspection cycle (2026-10-28 21:16Z): Public Core Pro re-verified at v2.1.42-pro. Local pytest 43/43 passed, coverage ~68% on mfr_core_pro.py. AGENTS.md constitution confirmed present, saved on GitHub, and review timestamp refreshed on both HQ and Core Pro. CI green. No critical issues.
 
 ### Changed
 - Public Core Pro references in README already aligned to v2.1.42-pro.
