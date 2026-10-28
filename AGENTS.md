@@ -345,4 +345,4 @@ stability → security → functional correctness → performance → quality �
 Raise the project each cycle without sacrificing what already works, and without trading stability for volume of change.
 
 ---
-*Last reviewed and confirmed in repository: 2026-10-28 (this cycle: local Core Pro clone + pytest 41/41 passed with ~68% coverage, CI green, AGENTS.md constitution verified present and aligned on HQ and public Core Pro; no critical issues; files confirmed saved on GitHub). Continuous improvement cycle active. Public surface at v2.1.42-pro.*
+*Last reviewed and confirmed in repository: 2026-10-28 (this cycle: independent Core Pro verification — pytest 41/41 passed, coverage measured at 68% on mfr_core_pro.py, AGENTS.md constitution verified present and aligned on HQ and public Core Pro; no critical issues; files confirmed saved on GitHub). Continuous improvement cycle active. Public surface at v2.1.42-pro.*
