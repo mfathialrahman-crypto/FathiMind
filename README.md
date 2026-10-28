@@ -36,12 +36,12 @@ INPUT (host telemetry)
 | Repository | Layer | Version | Cadence |
 | --- | --- | --- | --- |
 | [HelixMind](https://github.com/mfathialrahman-crypto/HelixMind) | Telemetry and anomaly intelligence | v1.2 | every 2 hours |
-| [MFR-Cognition](https://github.com/mfathialrahman-crypto/MFR-Cognition) | Cognitive core | v4.2.254 | every 2 hours |
+| [MFR-Cognition](https://github.com/mfathialrahman-crypto/MFR-Cognition) | Cognitive core | v4.2.255 | every 2 hours |
 | [AetherMind](https://github.com/mfathialrahman-crypto/AetherMind) | Intelligence / reasoning | v1.3 | every 2 hours |
 | [SovereignEvolution](https://github.com/mfathialrahman-crypto/SovereignEvolution) | Permanent evolution engine | v1.44 | daily 03:00 UTC |
 | [MFR Adaptive Intelligence Core Pro](https://github.com/mfathialrahman-crypto/MFR-Adaptive-Intelligence-Core-Pro) | **Public** transparent analysis | v2.1.42-pro | continuous |
 
-Current heads: HelixMind v1.2 with long-window baseline; MFR-Cognition v4.2.254 with expanded host metrics (uptime, battery, CPU freq, temperatures, I/O), hardened redaction and decision traces; AetherMind v1.3 with optional sibling envelope ingest; SovereignEvolution v1.44 with completed targets. Shared schemas (RFC-0001) under `schemas/`. Public Core Pro at v2.1.42-pro (--evidence-file accepts documented object format with question, prior_belief, alternatives in addition to bare array; CLI prefers explicit command-line values then file values; 41 unit tests pass; mypy --strict clean; coverage ~68%; version-consistency CI green; docs aligned to version.py SSOT; no change to analysis logic, fingerprints, or numerical results for array format).
+Current heads: HelixMind v1.2 with long-window baseline; MFR-Cognition v4.2.255 with expanded host metrics (uptime, battery, CPU freq, temperatures, I/O), hardened redaction and decision traces; AetherMind v1.3 with optional sibling envelope ingest; SovereignEvolution v1.44 with completed targets. Shared schemas (RFC-0001) under `schemas/`. Public Core Pro at v2.1.42-pro (--evidence-file accepts documented object format with question, prior_belief, alternatives in addition to bare array; CLI prefers explicit command-line values then file values; 41 unit tests pass; mypy --strict clean; coverage ~68%; version-consistency CI green; docs aligned to version.py SSOT; no change to analysis logic, fingerprints, or numerical results for array format).
 
 ---
 
