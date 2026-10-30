@@ -7,6 +7,14 @@ The format is based on Keep a Changelog, and this project adheres to semantic ve
 ## [Unreleased]
 
 ### Documented
+- Independent verification cycle (2026-10-31T01:15Z): AGENTS.md constitution cleaned, formatting normalized, long-horizon section confirmed, and saved to main on FathiMind HQ and MFR-Adaptive-Intelligence-Core-Pro. Versions aligned at 2.1.45-pro. No critical (P0/P1) issues detected. Continuous improvement cycle active.
+
+### Changed
+- AGENTS.md review footer and structure updated across public surfaces to record the 2026-10-31 cycle.
+
+## [2026-10-30]
+
+### Documented
 - Independent verification cycle (2026-10-30T13:30Z): Public Core Pro locally cloned and tested (19/19 pytest passed, coverage 90.56% ≥ 90% gate). AGENTS.md constitution confirmed present and review timestamp refreshed across HQ, Core-Pro, and public-signals. No critical (P0/P1) issues detected. Continuous improvement cycle active.
 
 ### Changed
