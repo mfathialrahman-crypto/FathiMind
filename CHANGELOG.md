@@ -7,11 +7,10 @@ The format is based on Keep a Changelog, and this project adheres to semantic ve
 ## [Unreleased]
 
 ### Documented
-- Independent full inspection cycle (2026-10-30T09:16Z): Full ecosystem review completed. AGENTS.md constitution verified present, consistent, and review timestamp refreshed on HQ, Core-Pro, and public-signals. Private engines confirmed to contain AGENTS.md. No critical (P0/P1) issues detected. Public Core Pro remains at v2.1.45-pro. Continuous improvement cycle active.
+- Independent verification cycle (2026-10-30T13:30Z): Public Core Pro locally cloned and tested (19/19 pytest passed, coverage 90.56% ≥ 90% gate). AGENTS.md constitution confirmed present and review timestamp refreshed across HQ, Core-Pro, and public-signals. No critical (P0/P1) issues detected. Continuous improvement cycle active.
 
 ### Changed
-- AGENTS.md review footer updated across public surfaces to record the 2026-10-30T09:16Z inspection.
-- Public Core Pro references in README synchronized to v2.1.45-pro (previously 2.1.44-pro).
+- AGENTS.md review footer updated across public surfaces to record the 2026-10-30T13:30Z verification.
 
 ## [2026-10-27]
 
