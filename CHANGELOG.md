@@ -7,10 +7,10 @@ The format is based on Keep a Changelog, and this project adheres to semantic ve
 ## [Unreleased]
 
 ### Documented
-- Independent full inspection cycle (2026-10-28 21:16Z): Public Core Pro re-verified at v2.1.42-pro. Local pytest 43/43 passed, coverage ~68% on mfr_core_pro.py. AGENTS.md constitution confirmed present, saved on GitHub, and review timestamp refreshed on both HQ and Core Pro. CI green. No critical issues.
+- Independent full inspection cycle (2026-10-30): Public Core Pro re-verified at v2.1.45-pro. Local pytest 19/19 passed on Python 3.10 after unused-import cleanup. AGENTS.md constitution confirmed present, saved on GitHub, and review timestamp refreshed on both HQ and Core Pro. CI green. Handbook README badge, table, and status paragraph synchronized to v2.1.45-pro. No critical issues.
 
 ### Changed
-- Public Core Pro references in README already aligned to v2.1.42-pro.
+- Public Core Pro references in README synchronized to v2.1.45-pro (previously 2.1.44-pro).
 
 ## [2026-10-27]
 
