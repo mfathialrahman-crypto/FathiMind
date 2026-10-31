@@ -31,7 +31,7 @@ INPUT (host telemetry)
 
 ---
 
-## Live Ecosystem (2026-10-30)
+## Live Ecosystem (2026-10-31)
 
 | Repository | Layer | Version | Cadence |
 | --- | --- | --- | --- |
