@@ -41,7 +41,7 @@ INPUT (host telemetry)
 | [SovereignEvolution](https://github.com/mfathialrahman-crypto/SovereignEvolution) | Permanent evolution engine | v1.44 | daily 03:00 UTC |
 | [MFR Adaptive Intelligence Core Pro](https://github.com/mfathialrahman-crypto/MFR-Adaptive-Intelligence-Core-Pro) | **Public** transparent analysis | v2.1.45-pro | continuous |
 
-Current heads: HelixMind v1.2 with long-window baseline; MFR-Cognition v4.2.256 with expanded host metrics (uptime, battery, CPU freq, temperatures, I/O), hardened redaction and decision traces; AetherMind v1.3 with optional sibling envelope ingest; SovereignEvolution v1.44 with completed targets. Shared schemas (RFC-0001) under `schemas/`. Public Core Pro at v2.1.45-pro (zero-dependency MIT; local verification 2026-11-01: 19 unit tests pass with 91% coverage; decision-contract fields + prior_belief validation present; AGENTS.md constitution present and reviewed; unused imports cleaned; mypy --strict clean; CI green).
+Current heads: HelixMind v1.2 with long-window baseline; MFR-Cognition v4.2.256 with expanded host metrics (uptime, battery, CPU freq, temperatures, I/O), hardened redaction and decision traces; AetherMind v1.3 with optional sibling envelope ingest; SovereignEvolution v1.44 with completed targets. Shared schemas (RFC-0001) under `schemas/`. Public Core Pro at v2.1.45-pro (zero-dependency MIT; local verification 2026-11-01: 20 unit tests pass with 91% coverage; decision-contract fields + prior_belief validation present; AGENTS.md constitution present and reviewed; unused imports cleaned; mypy --strict clean; CI green).
 
 ---
 
