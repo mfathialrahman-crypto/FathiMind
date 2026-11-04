@@ -5,6 +5,9 @@ All notable changes to the FathiMind handbook and shared contracts are documente
 The format is based on Keep a Changelog, and this project adheres to semantic versioning where applicable for the handbook.
 
 ## [Unreleased]
+### Documented
+- Independent verification cycle (2026-11-04T07:20+04): Fresh clones of public surfaces (Core Pro: 27/27 pytest, 98% coverage, mypy clean; version 2.1.47-pro). GitHub About description for Core Pro aligned from v2.1.45-pro to v2.1.47-pro. Profile README Live Signal table and badge updated to current versions (Core Pro v2.1.47-pro, Cognition v4.2.256). Private MFR-Cognition local tests all passed. AGENTS.md constitution review timestamp refreshed. No P0/P1 issues. Continuous improvement active.
+
 
 ### Documented
 - Independent verification cycle (2026-11-04T04:19+04): Fresh local clone of public MFR-Adaptive-Intelligence-Core-Pro; pytest 27/27 passed in 0.05s; coverage 98% (189 stmts, 4 miss); mypy --strict clean. Version aligned at 2.1.47-pro. AGENTS.md constitution review timestamp refreshed and saved to main on FathiMind HQ, Core Pro, and fathimind-public-signals. No critical P0/P1 issues detected. Continuous improvement active.
