@@ -6,6 +6,7 @@ The format is based on Keep a Changelog, and this project adheres to semantic ve
 
 ## [Unreleased]
 ### Documented
+- Independent verification cycle (2026-11-06T05:17Z / 2026-11-06T09:17+04): Remote inspection of public MFR-Adaptive-Intelligence-Core-Pro (version.py and pyproject.toml aligned at 2.1.49-pro). Fingerprint now includes alternatives for full content-addressability. AGENTS.md constitution confirmed present across HQ and Core Pro. No P0/P1 issues detected. Continuous improvement cycle executed. File saved on GitHub.
 - Independent verification cycle (2026-11-05T00:14+04): Fresh local clone of public MFR-Adaptive-Intelligence-Core-Pro; pytest 28/28 passed in 0.05s; coverage 98% (191 stmts, 4 miss); mypy --strict clean. Version aligned at 2.1.47-pro. AGENTS.md constitution review timestamp refreshed and saved to main on FathiMind HQ, Core Pro, and fathimind-public-signals. No P0/P1 issues detected. Continuous improvement active.
 - Independent verification cycle (2026-11-04T21:17+04): Fresh local clone of public MFR-Adaptive-Intelligence-Core-Pro; pytest 28/28 passed in 0.09s; mypy --strict clean. Version aligned at 2.1.47-pro. AGENTS.md constitution review timestamp refreshed and saved to main on FathiMind HQ and Core Pro. No P0/P1 issues detected. Continuous improvement active.
 - Independent verification cycle (2026-11-04T13:17+04): Local clone of public MFR-Adaptive-Intelligence-Core-Pro; pytest 27/27 passed; coverage 98%; mypy --strict clean. Version aligned at 2.1.47-pro. AGENTS.md constitution review timestamp refreshed and saved to main on FathiMind HQ and Core Pro. No P0/P1 issues detected. Continuous improvement active.
@@ -25,6 +26,8 @@ The format is based on Keep a Changelog, and this project adheres to semantic ve
 - Independent verification cycle (2026-10-31T01:15Z): AGENTS.md constitution cleaned, formatting normalized, long-horizon section confirmed, and saved to main on FathiMind HQ and MFR-Adaptive-Intelligence-Core-Pro. Versions aligned at 2.1.45-pro. No critical (P0/P1) issues detected. Continuous improvement cycle active.
 
 ### Changed
+- README Live Ecosystem date and Public Core Pro version synchronized to 2026-11-06 / v2.1.49-pro. Badge and status paragraph updated with alternatives fingerprint inclusion and 30-test verification note.
+- AGENTS.md review footer updated to 2026-11-06T05:17Z across public surfaces.
 - AGENTS.md review footer updated to 2026-11-05T00:14+04 across public surfaces (FathiMind HQ, Core Pro, and fathimind-public-signals).
 - AGENTS.md review footer updated to 2026-11-04T21:17+04 across public surfaces (FathiMind HQ and Core Pro).
 - AGENTS.md review footer updated to 2026-11-04T11:19+04 across public surfaces (FathiMind HQ, Core Pro, public-signals).
