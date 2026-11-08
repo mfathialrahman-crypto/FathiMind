@@ -6,6 +6,7 @@ The format is based on Keep a Changelog, and this project adheres to semantic ve
 
 ## [Unreleased]
 ### Documented
+- Independent verification cycle (2026-11-08T15:19+04): Remote inspection of public surfaces. AGENTS.md on FathiMind HQ was placeholder ("PLACEHOLDER_FIX_LATER"); restored full constitution with long-horizon section and review stamp. README badge and ecosystem table aligned to Public Core Pro v2.1.51-pro. No P0/P1 issues. Continuous improvement active.
 - Independent verification cycle (2026-11-08T03:17+04): Remote inspection of public surfaces (FathiMind HQ, MFR-Adaptive-Intelligence-Core-Pro v2.1.50-pro, fathimind-public-signals). AGENTS.md constitution confirmed present, aligned with provided source (improved markdown + long-horizon section), review timestamp refreshed and saved to main on all three public repos. No P0/P1 issues detected. Continuous improvement active.
 - Independent verification cycle (2026-11-05T00:14+04): Fresh local clone of public MFR-Adaptive-Intelligence-Core-Pro; pytest 28/28 passed in 0.05s; coverage 98% (191 stmts, 4 miss); mypy --strict clean. Version aligned at 2.1.47-pro. AGENTS.md constitution review timestamp refreshed and saved to main on FathiMind HQ, Core Pro, and fathimind-public-signals. No P0/P1 issues detected. Continuous improvement active.
 - Independent verification cycle (2026-11-04T21:17+04): Fresh local clone of public MFR-Adaptive-Intelligence-Core-Pro; pytest 28/28 passed in 0.09s; mypy --strict clean. Version aligned at 2.1.47-pro. AGENTS.md constitution review timestamp refreshed and saved to main on FathiMind HQ and Core Pro. No P0/P1 issues detected. Continuous improvement active.
@@ -26,6 +27,8 @@ The format is based on Keep a Changelog, and this project adheres to semantic ve
 - Independent verification cycle (2026-10-31T01:15Z): AGENTS.md constitution cleaned, formatting normalized, long-horizon section confirmed, and saved to main on FathiMind HQ and MFR-Adaptive-Intelligence-Core-Pro. Versions aligned at 2.1.45-pro. No critical (P0/P1) issues detected. Continuous improvement cycle active.
 
 ### Changed
+- AGENTS.md on FathiMind HQ restored from placeholder to full constitution; review stamp 2026-11-08T15:19+04.
+- README Live Ecosystem and badge updated to Public Core Pro v2.1.51-pro and date 2026-11-08.
 - AGENTS.md review footer updated to 2026-11-08T03:17+04 across public surfaces (FathiMind HQ, Core Pro, and fathimind-public-signals).
 - AGENTS.md review footer updated to 2026-11-05T00:14+04 across public surfaces (FathiMind HQ, Core Pro, and fathimind-public-signals).
 - AGENTS.md review footer updated to 2026-11-04T21:17+04 across public surfaces (FathiMind HQ and Core Pro).
