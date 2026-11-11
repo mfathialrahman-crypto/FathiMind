@@ -6,6 +6,8 @@ The format is based on Keep a Changelog, and this project adheres to semantic ve
 
 ## [Unreleased]
 ### Documented
+- Independent verification cycle (2026-11-11T10:20Z): Fresh local clones. Core-Pro pytest 42/42 passed (0.28s), coverage 95%, mypy --strict clean. Fixed fathimind-public-signals CI version gate (was stuck on 2.1.51-pro; now 2.1.59-pro) and aligned STATUS/README test counts. AGENTS.md stamps refreshed across HQ, Core-Pro, and public-signals. No P0/P1 issues. Continuous improvement active.
+### Prior
 - Independent verification cycle (2026-11-08T15:19+04): Remote inspection of public surfaces. AGENTS.md on FathiMind HQ was placeholder ("PLACEHOLDER_FIX_LATER"); restored full constitution with long-horizon section and review stamp. README badge and ecosystem table aligned to Public Core Pro v2.1.51-pro. No P0/P1 issues. Continuous improvement active.
 - Independent verification cycle (2026-11-08T03:17+04): Remote inspection of public surfaces (FathiMind HQ, MFR-Adaptive-Intelligence-Core-Pro v2.1.50-pro, fathimind-public-signals). AGENTS.md constitution confirmed present, aligned with provided source (improved markdown + long-horizon section), review timestamp refreshed and saved to main on all three public repos. No P0/P1 issues detected. Continuous improvement active.
 - Independent verification cycle (2026-11-05T00:14+04): Fresh local clone of public MFR-Adaptive-Intelligence-Core-Pro; pytest 28/28 passed in 0.05s; coverage 98% (191 stmts, 4 miss); mypy --strict clean. Version aligned at 2.1.47-pro. AGENTS.md constitution review timestamp refreshed and saved to main on FathiMind HQ, Core Pro, and fathimind-public-signals. No P0/P1 issues detected. Continuous improvement active.
@@ -14,7 +16,7 @@ The format is based on Keep a Changelog, and this project adheres to semantic ve
 - Independent verification cycle (2026-11-04T11:19+04): Fresh local clone of public MFR-Adaptive-Intelligence-Core-Pro; pytest 27/27 passed in 0.14s; coverage 98% (189 stmts, 4 miss); mypy --strict clean. Version aligned at 2.1.47-pro. AGENTS.md constitution review timestamp refreshed and saved to main on FathiMind HQ, Core Pro, and fathimind-public-signals. No P0/P1 issues detected. Continuous improvement active.
 - Independent verification cycle (2026-11-04T07:20+04): Fresh clones of public surfaces (Core Pro: 27/27 pytest, 98% coverage, mypy clean; version 2.1.47-pro). GitHub About description for Core Pro aligned from v2.1.45-pro to v2.1.47-pro. Profile README Live Signal table and badge updated to current versions (Core Pro v2.1.47-pro, Cognition v4.2.256). Private MFR-Cognition local tests all passed. AGENTS.md constitution review timestamp refreshed. No P0/P1 issues. Continuous improvement active.
 
-### Documented
+### Prior
 - Independent verification cycle (2026-11-04T04:19+04): Fresh local clone of public MFR-Adaptive-Intelligence-Core-Pro; pytest 27/27 passed in 0.05s; coverage 98% (189 stmts, 4 miss); mypy --strict clean. Version aligned at 2.1.47-pro. AGENTS.md constitution review timestamp refreshed and saved to main on FathiMind HQ, Core Pro, and fathimind-public-signals. No critical P0/P1 issues detected. Continuous improvement active.
 - Independent verification cycle (2026-11-03T22:14+04): Fresh local clone of public MFR-Adaptive-Intelligence-Core-Pro; pytest 27/27 passed in 0.10s; coverage 98% (189 stmts, 4 miss); mypy --strict clean. Version aligned at 2.1.47-pro. AGENTS.md constitution review timestamp refreshed and saved to main on FathiMind HQ, Core Pro, and fathimind-public-signals. No critical P0/P1 issues detected. Continuous improvement active.
 - Independent verification cycle (2026-11-01T13:22Z): Full remote inspection of FathiMind HQ, public MFR-Adaptive-Intelligence-Core-Pro (version 2.1.45-pro aligned with pyproject.toml), and fathimind-public-signals. AGENTS.md constitution verified present, consistent across public surfaces, review timestamp refreshed, and saved to main. No critical P0/P1 issues detected. Continuous improvement active.
@@ -48,7 +50,7 @@ The format is based on Keep a Changelog, and this project adheres to semantic ve
 
 ## [2026-10-30]
 
-### Documented
+### Prior
 - Independent verification cycle (2026-10-30T13:30Z): Public Core Pro locally cloned and tested (19/19 pytest passed, coverage 90.56% ≥ 90% gate). AGENTS.md constitution confirmed present and review timestamp refreshed across HQ, Core-Pro, and public-signals. No critical (P0/P1) issues detected. Continuous improvement cycle active.
 
 ### Changed
