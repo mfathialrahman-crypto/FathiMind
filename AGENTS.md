@@ -345,4 +345,4 @@ stability → security → functional correctness → performance → quality �
 Raise the project each cycle without sacrificing what already works, and without trading stability for volume of change.
 
 ---
-*Last reviewed and confirmed in repository: 2026-11-13T07:25Z (cycle: constitution review and stamp refresh after Core-Pro verification; no functional changes. AGENTS.md present, complete, and aligned. No P0/P1 issues detected.)*
+*Last reviewed and confirmed in repository: 2026-11-14T00:21Z (cycle: full public surface review; Core Pro 2.1.61-pro CI green with 48 tests / 91% coverage. AGENTS.md present and complete. No P0/P1 issues detected.)*
