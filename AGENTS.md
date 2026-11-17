@@ -345,4 +345,4 @@ stability → security → functional correctness → performance → quality �
 Raise the project each cycle without sacrificing what already works, and without trading stability for volume of change.
 
 ---
-*Last reviewed and confirmed in repository: 2026-11-17T02:26Z (cycle: inspected Core Pro locally — 53/53 pytest passed, mypy --strict clean; AGENTS.md refreshed in Core Pro and HQ. No P0/P1. Standing priority maintained.)*
+*Last reviewed and confirmed in repository: 2026-11-17T04:19Z (cycle: inspected Core Pro locally — 53/53 pytest passed, mypy --strict clean; CLI help improved for mfr-core entry point; AGENTS.md refreshed in Core Pro and HQ. No P0/P1. Standing priority maintained.)*
