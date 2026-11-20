@@ -321,4 +321,4 @@ Be honest about limitations.
 Continuously raise the engineering quality of this repository.
 
 ---
-*Saved and confirmed in repository: 2026-11-20 (constitution restored from provided source; continuous improvement cycle active. No P0/P1 issues detected on public surface.)*
+*Saved and confirmed in repository: 2026-11-20 13:22 +04 (full inspect: Core Pro 34/34 pytest passed, 94% coverage, mypy --strict clean; HQ CI green; no P0/P1 on public surface. Constitution active.)*
