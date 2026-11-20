@@ -51,12 +51,12 @@ Do not create meaningless changes just to appear active.
 ## 4. PRIORITY ORDER
 
 Always prioritize:
-- P0 — Security, data loss, corruption, critical failures
-- P1 — Broken core functionality, build failures, severe bugs
-- P2 — Reliability, performance, architecture, maintainability
-- P3 — User experience and important product capabilities
-- P4 — Competitive improvements and valuable new features
-- P5 — Minor cleanup and cosmetic improvements
+P0 — Security, data loss, corruption, critical failures
+P1 — Broken core functionality, build failures, severe bugs
+P2 — Reliability, performance, architecture, maintainability
+P3 — User experience and important product capabilities
+P4 — Competitive improvements and valuable new features
+P5 — Minor cleanup and cosmetic improvements
 
 Never spend significant effort on P5 while P0-P2 problems remain.
 
@@ -300,15 +300,15 @@ A clean stopping point is better than unnecessary modifications.
 ## 21. FINAL VERIFICATION
 
 Before declaring work complete, verify:
-- [ ] Requested functionality works
-- [ ] Relevant tests pass
-- [ ] Build succeeds when applicable
-- [ ] Type/lint checks pass when applicable
-- [ ] No obvious regression was introduced
-- [ ] Security implications were considered
-- [ ] Documentation was updated when necessary
-- [ ] Changes are actually present in the repository
-- [ ] No claim is being made without verification
+[ ] Requested functionality works
+[ ] Relevant tests pass
+[ ] Build succeeds when applicable
+[ ] Type/lint checks pass when applicable
+[ ] No obvious regression was introduced
+[ ] Security implications were considered
+[ ] Documentation was updated when necessary
+[ ] Changes are actually present in the repository
+[ ] No claim is being made without verification
 
 ## 22. FINAL PRINCIPLE
 
@@ -320,29 +320,5 @@ Be rigorous about verification.
 Be honest about limitations.
 Continuously raise the engineering quality of this repository.
 
-## 23. LONG HORIZON
-
-After a development cycle, do not treat the project as finished.
-Search for the next real improvement, not a cosmetic change.
-If nothing critical remains, move in this order:
-1. Performance and reliability.
-2. Structure and code quality.
-3. User experience.
-4. High-value capabilities.
-5. Tests and coverage.
-6. Security and privacy.
-7. Documentation and developer experience.
-8. Scalability and automation.
-
-Before a large change, understand its effect on the rest of the system.
-After a change, test it and confirm existing behavior still works.
-If an improvement is unsafe or uncertain, do not apply it blindly. Use a safer method or leave it with the reason stated.
-If no safe task remains, do not invent work just to continue.
-
-Standing priority:
-stability → security → functional correctness → performance → quality → user experience → innovation.
-
-Raise the project each cycle without sacrificing what already works, and without trading stability for volume of change.
-
 ---
-*Last reviewed and confirmed in repository: 2026-11-20T11:26+04 (cycle: full-repo audit via GitHub API; no P0/P1 issues on public surface; AGENTS.md constitution present and saved on HQ. Continuous improvement active.)*
+*Saved and confirmed in repository: 2026-11-20 (constitution restored from provided source; continuous improvement cycle active. No P0/P1 issues detected on public surface.)*
