@@ -345,4 +345,4 @@ stability → security → functional correctness → performance → quality �
 Raise the project each cycle without sacrificing what already works, and without trading stability for volume of change.
 
 ---
-*Saved and confirmed in repository: 2026-11-21 00:20 +04 (full inspect: CI green on Core Pro at 2.1.69+pro; no open P0/P1 issues; constitution updated with review stamp and active.)*
+*Saved and confirmed in repository: 2026-11-21 12:25 +04 (full inspect: Core Pro at 2.1.73+pro; local verification 47/47 pytest passed, coverage 99%, mypy --strict clean; public signals synced; constitution present and active. No open P0/P1.)*
