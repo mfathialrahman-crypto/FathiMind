@@ -345,4 +345,4 @@ stability → security → functional correctness → performance → quality �
 Raise the project each cycle without sacrificing what already works, and without trading stability for volume of change.
 
 ---
-*Saved and confirmed in repository: 2026-11-22 17:27 +04 (full inspect: Core Pro at 2.1.73+pro; independent local verification 47/47 pytest passed, coverage 99%, mypy --strict clean; constitution present and active on main; sample_record.json added for CLI demo. No open P0/P1. CI green.)*
+*Reconfirmed via remote inspection of public surfaces: 2026-11-22 22:15 +04. AGENTS.md constitution present and active on main in FathiMind HQ and MFR-Adaptive-Intelligence-Core-Pro (v2.1.73+pro). No open P0/P1 detected from handbook, CI, and version alignment. Local pytest not re-run in this session. Continuous improvement cycle active.*
