@@ -51,12 +51,12 @@ Do not create meaningless changes just to appear active.
 ## 4. PRIORITY ORDER
 
 Always prioritize:
-P0 — Security, data loss, corruption, critical failures
-P1 — Broken core functionality, build failures, severe bugs
-P2 — Reliability, performance, architecture, maintainability
-P3 — User experience and important product capabilities
-P4 — Competitive improvements and valuable new features
-P5 — Minor cleanup and cosmetic improvements
+- P0 — Security, data loss, corruption, critical failures
+- P1 — Broken core functionality, build failures, severe bugs
+- P2 — Reliability, performance, architecture, maintainability
+- P3 — User experience and important product capabilities
+- P4 — Competitive improvements and valuable new features
+- P5 — Minor cleanup and cosmetic improvements
 
 Never spend significant effort on P5 while P0-P2 problems remain.
 
@@ -300,15 +300,15 @@ A clean stopping point is better than unnecessary modifications.
 ## 21. FINAL VERIFICATION
 
 Before declaring work complete, verify:
-[ ] Requested functionality works
-[ ] Relevant tests pass
-[ ] Build succeeds when applicable
-[ ] Type/lint checks pass when applicable
-[ ] No obvious regression was introduced
-[ ] Security implications were considered
-[ ] Documentation was updated when necessary
-[ ] Changes are actually present in the repository
-[ ] No claim is being made without verification
+- [ ] Requested functionality works
+- [ ] Relevant tests pass
+- [ ] Build succeeds when applicable
+- [ ] Type/lint checks pass when applicable
+- [ ] No obvious regression was introduced
+- [ ] Security implications were considered
+- [ ] Documentation was updated when necessary
+- [ ] Changes are actually present in the repository
+- [ ] No claim is being made without verification
 
 ## 22. FINAL PRINCIPLE
 
@@ -345,4 +345,4 @@ stability → security → functional correctness → performance → quality �
 Raise the project each cycle without sacrificing what already works, and without trading stability for volume of change.
 
 ---
-*Saved and confirmed in repository: 2026-11-22 17:27 +04 (full inspect: Core Pro at 2.1.73+pro; independent local verification 47/47 pytest passed, coverage 99%, mypy --strict clean; constitution present and active on main; sample_record.json added for CLI demo. No open P0/P1. CI green.)*
+*Last reviewed and confirmed in repository: 2026-11-23 00:16 +04 (cycle re-confirmation from source constitution). Constitution present and active on main across FathiMind HQ, Core Pro, and public-signals. Core Pro at 2.1.73+pro; CI green on recent runs. No open P0/P1 observed. File saved and synchronized.*
