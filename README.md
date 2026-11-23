@@ -8,7 +8,7 @@
 
 [![Status](https://img.shields.io/badge/Ecosystem-Live-brightgreen)](https://github.com/mfathialrahman-crypto)
 [![CI](https://github.com/mfathialrahman-crypto/FathiMind/workflows/HQ%20Handbook%20Check/badge.svg)](https://github.com/mfathialrahman-crypto/FathiMind/actions/workflows/ci.yml)
-[![Public Core](https://img.shields.io/badge/Public%20Core-MIT%20v2.1.73%2Bpro-orange)](https://github.com/mfathialrahman-crypto/MFR-Adaptive-Intelligence-Core-Pro)
+[![Public Core](https://img.shields.io/badge/Public%20Core-MIT%20v2.1.74%2Bpro-orange)](https://github.com/mfathialrahman-crypto/MFR-Adaptive-Intelligence-Core-Pro)
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue)](https://www.python.org/)
 
 This repository is the headquarters. It is not a list of other people's articles. It is the operating handbook for a system that already runs.
@@ -31,7 +31,7 @@ INPUT (host telemetry)
 
 ---
 
-## Live Ecosystem (2026-11-21)
+## Live Ecosystem (2026-11-23)
 
 | Repository | Layer | Version | Cadence |
 | --- | --- | --- | --- |
@@ -39,9 +39,9 @@ INPUT (host telemetry)
 | [MFR-Cognition](https://github.com/mfathialrahman-crypto/MFR-Cognition) | Cognitive core | v4.2.256 | every 2 hours |
 | [AetherMind](https://github.com/mfathialrahman-crypto/AetherMind) | Intelligence / reasoning | v1.3 | every 2 hours |
 | [SovereignEvolution](https://github.com/mfathialrahman-crypto/SovereignEvolution) | Permanent evolution engine | v1.44 | daily 03:00 UTC |
-| [MFR Adaptive Intelligence Core Pro](https://github.com/mfathialrahman-crypto/MFR-Adaptive-Intelligence-Core-Pro) | **Public** transparent analysis | v2.1.73+pro | continuous |
+| [MFR Adaptive Intelligence Core Pro](https://github.com/mfathialrahman-crypto/MFR-Adaptive-Intelligence-Core-Pro) | **Public** transparent analysis | v2.1.74+pro | continuous |
 
-Current heads: HelixMind v1.2 with long-window baseline; MFR-Cognition v4.2.256 with expanded host metrics (uptime, battery, CPU freq, temperatures, I/O), hardened redaction and decision traces; AetherMind v1.3 with optional sibling envelope ingest; SovereignEvolution v1.44 with completed targets. Shared schemas (RFC-0001) under `schemas/`. Public Core Pro at v2.1.73+pro (zero-dependency MIT; pure Beta posterior CI; status decision corrected for weak top-claim; CLI --help/--version/--json hardened; pure-Python report validator; decision-contract fields + prior_belief validation; from_json hardening; AGENTS.md constitution present and reviewed; CI green; 47/47 pytest, 99% coverage, mypy --strict clean).
+Current heads: HelixMind v1.2 with long-window baseline; MFR-Cognition v4.2.256 with expanded host metrics (uptime, battery, CPU freq, temperatures, I/O), hardened redaction and decision traces; AetherMind v1.3 with optional sibling envelope ingest; SovereignEvolution v1.44 with completed targets. Shared schemas (RFC-0001) under `schemas/`. Public Core Pro at v2.1.74+pro (zero-dependency MIT; pure Beta posterior CI; status decision corrected for weak top-claim; CLI --help/--version/--json hardened with stdin support; pure-Python report validator; decision-contract fields + prior_belief validation; from_json hardening; AGENTS.md constitution present and reviewed; CI green; 48/48 pytest, coverage ≥90%, mypy --strict clean).
 
 ---
 
