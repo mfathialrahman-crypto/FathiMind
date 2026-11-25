@@ -36,12 +36,12 @@ INPUT (host telemetry)
 | Repository | Layer | Version | Cadence |
 | --- | --- | --- | --- |
 | [HelixMind](https://github.com/mfathialrahman-crypto/HelixMind) | Telemetry and anomaly intelligence | v1.2 | every 2 hours |
-| [MFR-Cognition](https://github.com/mfathialrahman-crypto/MFR-Cognition) | Cognitive core | v4.2.256 | every 2 hours |
+| [MFR-Cognition](https://github.com/mfathialrahman-crypto/MFR-Cognition) | Cognitive core | v4.2.257 | every 2 hours |
 | [AetherMind](https://github.com/mfathialrahman-crypto/AetherMind) | Intelligence / reasoning | v1.3 | every 2 hours |
 | [SovereignEvolution](https://github.com/mfathialrahman-crypto/SovereignEvolution) | Permanent evolution engine | v1.44 | daily 03:00 UTC |
 | [MFR Adaptive Intelligence Core Pro](https://github.com/mfathialrahman-crypto/MFR-Adaptive-Intelligence-Core-Pro) | **Public** transparent analysis | v2.1.77+pro | continuous |
 
-Current heads: HelixMind v1.2 with long-window baseline; MFR-Cognition v4.2.256 with expanded host metrics (uptime, battery, CPU freq, temperatures, I/O), hardened redaction and decision traces; AetherMind v1.3 with optional sibling envelope ingest; SovereignEvolution v1.44 with completed targets. Shared schemas (RFC-0001) under `schemas/`. Public Core Pro at v2.1.77+pro (zero-dependency MIT; pure Beta posterior CI; status decision corrected for weak top-claim; CLI --help/--version/--json hardened with stdin support; pure-Python report validator; decision-contract fields + prior_belief validation; from_json hardening; AGENTS.md constitution present and reviewed; CI green; coverage ≥90%, mypy --strict clean).
+Current heads: HelixMind v1.2 with long-window baseline; MFR-Cognition v4.2.257 with expanded host metrics (uptime, battery, CPU freq, temperatures, I/O), hardened redaction and decision traces; AetherMind v1.3 with optional sibling envelope ingest; SovereignEvolution v1.44 with completed targets. Shared schemas (RFC-0001) under `schemas/`. Public Core Pro at v2.1.77+pro (zero-dependency MIT; pure Beta posterior CI; status decision corrected for weak top-claim; CLI --help/--version/--json hardened with stdin support; pure-Python report validator; decision-contract fields + prior_belief validation; from_json hardening; AGENTS.md constitution present and reviewed; CI green; coverage ≥90%, mypy --strict clean).
 
 ---
 
