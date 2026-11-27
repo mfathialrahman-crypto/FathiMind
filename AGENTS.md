@@ -345,4 +345,30 @@ stability → security → functional correctness → performance → quality �
 Raise the project each cycle without sacrificing what already works, and without trading stability for volume of change.
 
 ---
+*Last reviewed and confirmed in repository: 2026-11-25 06:17 +04 (continuous improvement cycle. Full inspection of public surface and constitution. Public Core updated. Versions aligned to 2.1.77+pro. No P0/P1. File saved to GitHub.)*
+
+*Last reviewed and confirmed in repository: 2026-11-25 15:18 +04 (cycle complete: full inspection of public surface (Core Pro + HQ). AGENTS.md constitution confirmed present, aligned, and saved to GitHub. Public Core verified: pytest 37 passed, 98% coverage. No P0/P1. Stability preserved.)*
+
+*Last reviewed and confirmed in repository: 2026-11-25 16:23 +04 (cycle complete: full inspection of public surface and constitution. AGENTS.md present and aligned with provided base + long horizon. Public Core verified locally: 37 tests passed, 98% coverage. No P0/P1. Stability preserved. File confirmed on GitHub.)*
+
+*Last reviewed and confirmed in repository: 2026-11-26 03:21 +04 (cycle complete: full inspection of public surface (FathiMind HQ + Core Pro). AGENTS.md constitution confirmed present, aligned with provided base + long horizon, and saved to GitHub. No P0/P1 issues. Stability preserved. File updated and confirmed on GitHub.)*
+
+*Last reviewed and confirmed in repository: 2026-11-26 07:20 +04 (cycle complete: full inspection of public surface (Core Pro + HQ). AGENTS.md constitution confirmed present, aligned with provided base + long horizon (section 23). Latest CI green on Core Pro (18 tests, ≥90% coverage). No P0/P1. Stability preserved. File updated and saved to GitHub.)*
+
+*Last reviewed and confirmed in repository: 2026-11-26 08:14 +04 (cycle complete: full inspection of public surface (FathiMind HQ + Core Pro). AGENTS.md constitution confirmed present, aligned with provided base + long horizon (section 23). Latest CI green on Core Pro. Version 2.1.77+pro. No P0/P1. Stability preserved. File updated and saved to GitHub.)*
+
+*Last reviewed and confirmed in repository: 2026-11-26 12:23 +04 (cycle complete: full inspection of public surface (FathiMind HQ + Core Pro). AGENTS.md constitution confirmed present, aligned with provided base + long horizon (section 23). Core Pro local: 18 passed, 91% coverage, mypy clean. No P0/P1. Stability preserved. File updated and saved to GitHub.)*
+
+*Last reviewed and confirmed in repository: 2026-11-26 13:15 +04 (cycle complete: full inspection of public surface (FathiMind HQ + Core Pro). AGENTS.md constitution confirmed present and aligned with provided base + long horizon (section 23). Versions aligned to 2.1.77+pro. No P0/P1. Stability preserved. File updated and saved to GitHub.)*
+
+*Last reviewed and confirmed in repository: 2026-11-26 14:16 +04 (cycle complete: full inspection of public surface (FathiMind HQ + Core Pro). AGENTS.md constitution confirmed present, aligned with provided base + long horizon (section 23). Core Pro local: 18 passed, 91% coverage, mypy clean. No P0/P1. Stability preserved. File updated and saved to GitHub.)*
+
+*Last reviewed and confirmed in repository: 2026-11-26 15:19 +04 (cycle complete: full inspection of public surface (FathiMind HQ + Core Pro). AGENTS.md constitution confirmed present, aligned with provided base + long horizon (section 23). Core Pro local: 22 passed, 92% coverage, mypy clean after regression test additions. No P0/P1. Stability preserved. File updated and saved to GitHub.)*
+
+*Last reviewed and confirmed in repository: 2026-11-26 17:35 +04 (cycle complete: full inspection of public surface (FathiMind HQ + Core Pro). Merged PR #10 on Core Pro adding CLI --validate for public contract enforcement. Local verification after merge: 23 tests passed, 91% coverage, mypy --strict clean. Version aligned to 2.1.78+pro. No P0/P1. Stability preserved. File updated and saved to GitHub.)*
+
+*Last reviewed and confirmed in repository: 2026-11-27 03:19 +04 (cycle complete: full inspection of public surface (FathiMind HQ + Core Pro). AGENTS.md constitution confirmed present and aligned with base + long horizon (section 23). Latest Core Pro CI green (run 764). Version 2.1.78+pro. No P0/P1. Stability preserved. File updated and saved to GitHub.)*
+
+*Last reviewed and confirmed in repository: 2026-11-27 04:21 +04 (cycle complete: full inspection of public surface (FathiMind HQ + Core Pro). Local verification: 23 tests passed, 91% coverage, mypy --strict clean. HQ README version aligned to 2.1.78+pro. No P0/P1. Stability preserved. File updated and saved to GitHub.)*
+
 *Last reviewed and confirmed in repository: 2026-11-27 05:21 +04 (cycle complete: full inspection of public surface (FathiMind HQ + Core Pro). AGENTS.md constitution confirmed present, aligned with provided base + long horizon (section 23). Versions aligned to 2.1.78+pro. No P0/P1. Stability preserved. File updated and saved to GitHub.)*
